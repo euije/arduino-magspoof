@@ -35,6 +35,8 @@ public:
 
     void playTrack(const char* track);
 
+    void playTrack(const char* track, float voltage);
+
 private:
     const uint8_t m_pinA;
     const uint8_t m_pinB;
