@@ -32,6 +32,8 @@ void setup()
 void loop()
 {
     // Transmit track every 2 seconds
-    delay(2000);
+    delay(1000);
     magSpoof.playTrack(testTracks[0]);
+    delay(1000);
+    magSpoof.playTrack(testTracks[0], 2.5f);
 }
